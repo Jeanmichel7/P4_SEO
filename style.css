@@ -14,7 +14,7 @@ button {
 }
 
 a:hover {
-    text-decoration: nones;
+    text-decoration: none;
     cursor: pointer;
 }
 
