@@ -256,10 +256,6 @@ a:hover {
 
 
 
-
-
-
-
 .voffset {
     margin-top: 30px;
 }
@@ -350,28 +346,6 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -658,6 +632,35 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1024px) {
     .bloc {
