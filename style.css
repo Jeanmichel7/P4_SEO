@@ -8,42 +8,53 @@
 }
 
 #bloc-2-services p{
-    font-size:1.4rem;
+    font-size:1.6rem;
     margin-right:10vw;
     margin-left:10vw;
     text-align:justify;
 }
 
-blockquote{
+#citation p{
+    font-size: 1.5rem;
+    color:#c27956;
+    margin-top:30px;
+
     margin-right:10vw;
     margin-left:10vw;
-
-    font-weight: bold;
-    font-style: italic;
-
-    color:rgb(83, 82, 82);
 }
 
-#bloc-3-what-i-do p{
-    font-size:1.2rem;
-}
 #bloc-3-what-i-do a{
     font-size: 1.7rem;
+    padding-top:18px;
 }
 
 #bloc-4-portfolio p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    text-align:justify;
+    margin-bottom:20px;
+}
+#bloc-4-portfolio h2{
+    padding:50px 0 50px;
+}
+#bloc-4-portfolio img{
+    margin-right:auto;
+    margin-left:auto;
 }
 
-#citation p{
-    font-size: 2.2rem;
+blockquote{
+    margin-right:10vw;
+    margin-left:10vw;
+    margin-top:20px;
+
+    padding-top:5vh;
+    padding-bottom:5vh;
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+
+    color:rgb(83, 82, 82);
 }
-
-
- 
-
-
-
 
 
 
@@ -503,7 +514,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -525,39 +536,35 @@ p {
     margin: auto auto auto auto;
 }
 
-h5{
-    font-size:2rem;
-}
 
-h4{
-    font-size: 3rem;
-    line-height: 1.4em;
+h1 {
+    color: #333333!important;
 }
-
-h3 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
 h2 {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
+h3 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+h4{
+    font-size: 3rem;
+    line-height: 1.4em;
+    color: #333333!important;
+}
+h5{
+    font-size:2rem;
+}
+
+
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
 }
 
 .icons {
@@ -643,30 +650,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
