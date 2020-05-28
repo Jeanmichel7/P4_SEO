@@ -52,11 +52,13 @@ h4{
     color: #333333!important;
 }
 h5{
-    font-size:2rem;
+    font-size:1.4rem;
+    margin-top:0;
 }
 
-
-
+h6{
+    font-size:1.7rem;
+}
 
 
 
@@ -163,6 +165,7 @@ a p{
 }
 
 
+
 /* 5- citation */
 #citation p{
     font-size: 1.5rem;
@@ -172,7 +175,6 @@ a p{
     margin-right:10vw;
     margin-left:10vw;
 }
-
 blockquote{
     margin-right:10vw;
     margin-left:10vw;
@@ -187,8 +189,6 @@ blockquote{
 
     color:rgb(83, 82, 82);
 }
-
-
 .tight-width-whitespace {
     max-width: 90%;
     margin: auto auto auto auto;
@@ -200,17 +200,21 @@ blockquote{
 }
 
 
+
 /* footer */
-
-
 p {
     font-size: 12px;
 }
+.sitemap{
+    width: 100%;
+}
 
-
-
-
-
+ul{
+    list-style: none;
+}
+li{
+    color:#484848;
+}
 
 
 
@@ -228,7 +232,6 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
 
 /* header */
 .bloc {
@@ -267,7 +270,6 @@ a:hover {
     background-size: auto!important;
     background: repeat;
 }
-
 
 .bloc-bg-texture::before {
     content: "";
@@ -330,7 +332,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-
 .voffset {
     margin-top: 30px;
 }
@@ -343,13 +344,6 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
-
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-}
-
 
 
 
@@ -473,11 +467,15 @@ a[data-lightbox]:hover img {
 .social {
     max-width: 400px;
     margin: 0.5vh auto 1vh auto;
-    padding:0 3vw 0 3vw;
+    padding:0 2vw 0 2vw;
     display:flex;
     justify-content: center;
 }
-
+.reseausociaux{
+    display:flex;
+    margin-left:15vw;
+    margin-right:15vw;
+}
 
 
 
@@ -546,13 +544,10 @@ a[data-lightbox]:hover img {
     color: #cccccc!important;
 }
 
-
-
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
 }
-
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -584,8 +579,6 @@ a[data-lightbox]:hover img {
         padding-right: 0;
     }
 }
-
-
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
