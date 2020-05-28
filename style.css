@@ -2,6 +2,9 @@
     font-family:'Kingthings';
     src:url(fonts/Kingthings_Petrock_light.ttf);
 
+}.service{
+    font-size:2.5rem;
+    color:#F3976C;
 }
 body {
     margin:0;
@@ -27,6 +30,34 @@ a {
 .container {
     max-width: 1000px;
 }
+
+h1 {
+    color: #333333!important;
+    font-family:'Kingthings';
+    font-size: 6rem;
+}
+h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+h3 {
+    font-size: 2.7rem;
+    line-height: 1.4em;
+}
+h4{
+    font-size: 3rem;
+    line-height: 1.4em;
+    color: #333333!important;
+}
+h5{
+    font-size:2rem;
+}
+
+
+
+
 
 
 
@@ -78,55 +109,52 @@ a p{
     font-size: 1.7rem;
     margin-top:20px;
 }
-h1 {
-    color: #333333!important;
-    font-family:'Kingthings';
-    font-size: 6rem;
-}
+
 
 /* 2-service */
 #bloc-2-services p{
     font-size:1.6rem;
     margin-right:10vw;
     margin-left:10vw;
+    margin-bottom:40px;
     text-align:justify;
 }
-h2 {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
+
+.service{
+    font-size:3.5rem;
+    font-family: 'Kingthings';
 }
 
 /* 3-portfolio */
 
-#bloc-4-portfolio img{
+#bloc-3-portfolio img{
     margin-right:auto;
     margin-left:auto;
 }
-#bloc-4-portfolio p{
+
+#bloc-3-portfolio h2{
+    padding:40px;
+    margin-left:5vw;
+    margin-right:5vw;
+    font-size:2.5rem;
+}
+#bloc-3-portfolio h3{
+    font-size:2rem;
+}
+#bloc-3-portfolio p{
     font-size: 1.6rem;
     text-align:justify;
-    margin-bottom:20px;
-}
-h3 {
-    font-size: 22px;
-    line-height: 1.4em;
-    padding:50px 0 50px;
+    margin-bottom:60px;
 }
 
 
 
 /* 4- whatIDo */
-#bloc-3-what-i-do a{
+#bloc-4-what-i-do a{
     font-size: 1.7rem;
     padding-top:18px;
 }
-h4{
-    font-size: 3rem;
-    line-height: 1.4em;
-    color: #333333!important;
-}
+
 
 /* 5- citation */
 #citation p{
@@ -167,12 +195,13 @@ blockquote{
 
 /* footer */
 
-h5{
-    font-size:2rem;
-}
+
 p {
     font-size: 12px;
 }
+
+
+
 
 
 
