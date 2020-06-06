@@ -211,10 +211,29 @@ p {
 
 ul{
     list-style: none;
+    padding-left:10px;
 }
 li{
     color:#484848;
 }
+
+#btnform{
+    height: 35px;
+}
+.margadress{
+    margin-left:32px;
+}
+
+.social {
+    display:flex;
+    padding:10px;
+}
+.reseausociaux{
+    display:flex;
+}
+
+
+
 
 
 
@@ -462,19 +481,6 @@ a[data-lightbox]:hover img {
     padding: 16px 28px 12px 28px;
     font-size: 20px;
     font-weight: 700;
-}
-
-.social {
-    max-width: 400px;
-    margin: 0.5vh auto 1vh auto;
-    padding:0 2vw 0 2vw;
-    display:flex;
-    justify-content: center;
-}
-.reseausociaux{
-    display:flex;
-    margin-left:15vw;
-    margin-right:15vw;
 }
 
 

@@ -34,6 +34,8 @@
   FilterProtocol  COMPRESS  DEFLATE change=yes;byteranges=no
 </IfModule>
 
+
+# CA FOU LA MERDE CA
 <IfModule !mod_filter.c>
   # Legacy versions of Apache
   AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
