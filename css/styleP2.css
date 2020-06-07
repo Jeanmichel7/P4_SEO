@@ -1,0 +1,52 @@
+@font-face{
+    font-family:'Kingthings';
+    src:url(/fonts/Kingthings_Petrock_light.ttf);
+}
+
+body{
+    width:95%;
+}
+.navbar{
+    padding: 20px 20px;
+}
+
+.navbar-brand{
+    font-family:'Kingthings';
+    display:flex;
+    min-width: 300px;
+
+    font-size:3rem;
+}
+.navbar-brand img{
+    padding-right:20px;
+    
+}
+
+
+
+main{
+    padding-top:90px;
+}
+
+.bg-banniere {
+    background-image: url("/img/la-chouette-agence-banniere.jpg");
+    background-size: 1000px;
+}
+
+
+/*                                  comprend pas 
+.texture-paper::before {
+    background: url("/img/texture-paper.png");
+    background-size: 280px 280px;
+}
+.bloc-bg-texture::before {
+    content: "";
+    background-size: 200px 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+*/
+
