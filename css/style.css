@@ -79,9 +79,13 @@ a p{
 .navbar {
     margin-bottom: 0px;
     z-index: 1;
+    height:80px;
+}
+.navbar-header{
+    padding-top: 15px;
 }
 .navbar-brand{
-    padding-top: 2px;
+    padding-top: 5px;
 }
 .navbar-brand img {
     margin-bottom:8px;
@@ -98,7 +102,7 @@ a p{
     background: transparent!important;
 }
 
-.navbar-toggle .icon-bar {
+.icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
@@ -245,7 +249,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+button {
+    outline: none!important;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -409,9 +415,7 @@ a:hover {
     height:60px;
 }
 
-button {
-    outline: none!important;
-}
+
 
 .btn-rd {
     border-radius: 40px;

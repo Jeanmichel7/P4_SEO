@@ -3,50 +3,175 @@
     src:url(/fonts/Kingthings_Petrock_light.ttf);
 }
 
-body{
-    width:95%;
+
+main{
+    padding-top:70px;
 }
+.page-container{
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+/*                           ----------Menu-----------  */
+h1{
+    color: #F3976C!important;
+    font-family:'Kingthings';
+    font-size: 6rem;
+}
+
+.white {
+    color: #FFFFFF!important;
+    font-size:1.7rem;
+}
+
+
+
+
+
+
+
+
+
+.bloc {
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    padding: 0 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .navbar{
-    padding: 20px 20px;
+    padding: 10px 10px;
+    height:80px;
 }
 
 .navbar-brand{
     font-family:'Kingthings';
     display:flex;
     min-width: 300px;
+    padding-top: 10px;
 
     font-size:3rem;
 }
-.navbar-brand img{
-    padding-right:20px;
-    
+.navbar-brand p{
+    padding-top:10px;
+}
+.navbar-brand img {
+    padding-right:10px;
+}
+.navbar-brand img[src$=svg] {
+    min-width: 100px;
+
 }
 
 
 
-main{
-    padding-top:90px;
+.bgc-white {
+    background-color: #FFFFFF;
+}
+.container {
+    max-width: 1000px;
 }
 
-.bg-banniere {
-    background-image: url("/img/la-chouette-agence-banniere.jpg");
-    background-size: 1000px;
-}
 
 
-/*                                  comprend pas 
-.texture-paper::before {
-    background: url("/img/texture-paper.png");
-    background-size: 280px 280px;
+
+
+/* ---------Presentation----------*/
+.bloc-md {
+    padding: 50px;
 }
 .bloc-bg-texture::before {
     content: "";
-    background-size: 200px 200px;
+    background-size: 2px 2px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
-*/
+.bg-banniere {
+    background-image: url("/img/la-chouette-agence-banniere.jpg");
+}
+.texture-paper::before {
+    background: url("/img/texture-paper.png");
+    background-size: 280px 280px;
+}
+.b-parallax {
+    background-attachment: fixed;
+}
+
+
+
+
+.btn-rd {
+    border-radius: 40px;
+    
+}
+.btn-clean {
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-bottom-color: rgba(0, 0, 0, .1);
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+}
+.cta-hero {
+    margin-top: 22px;
+    color: #FFFFFF!important;
+    text-transform: uppercase;
+    padding: 16px 28px 12px 28px;
+    font-size: 20px;
+    font-weight: 700;
+    height:60px;
+}
+.btn-atomic-tangerine {
+    background: #F3976C;
+    color: #FFFFFF!important;
+}
+
+.btn-atomic-tangerine:hover {
+    background: #c27956!important;
+    color: #FFFFFF!important;
+}
+
+
+
+
+
+
+
+
+
+
+form{
+    margin-top:20px;
+}
+
+
 
