@@ -1,6 +1,6 @@
 @font-face{
     font-family:'Kingthings';
-    src:url(/fonts/Kingthings_Petrock_light.ttf);
+    src:url(../fonts/Kingthings_Petrock_light.ttf);
 }
 .service{
     font-size:2.5rem;
@@ -8,7 +8,7 @@
 }
 body {
     margin:0;
-    padding: 0;
+    padding: 20px 0 0 0;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
