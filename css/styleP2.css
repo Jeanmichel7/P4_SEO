@@ -11,27 +11,6 @@ main{
     overflow-x: hidden;
     position: relative;
 }
-.nav > li {
-    margin-top: 0;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    background: rgba(252, 252, 252, 0.7);
-    text-align: left;
-    padding-left: 15px;
-    width: 100%;
-}
-.nav > li:hover {
-    background: rgba(252, 252, 252, 0.4);
-}
-.navbar-collapse {
-    padding: 0;
-    margin-top:11px;
-    overflow-x: hidden;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-
-
 
 
 
@@ -42,17 +21,10 @@ h1{
     font-family:'Kingthings';
     font-size: 6rem;
 }
-
 .white {
     color: #FFFFFF!important;
     font-size:1.7rem;
 }
-
-
-
-
-
-
 
 
 
@@ -67,7 +39,6 @@ h1{
     background-size: cover;
     position: relative;
 }
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -76,19 +47,10 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
 .navbar{
     padding: 10px 10px;
     height:80px;
 }
-
 .navbar-brand{
     font-family:'Kingthings';
     display:flex;
@@ -122,6 +84,7 @@ h1{
 
 
 /* ---------Presentation----------*/
+
 .bloc-md {
     padding: 50px;
 }
@@ -144,7 +107,6 @@ h1{
 .b-parallax {
     background-attachment: fixed;
 }
-
 
 
 
@@ -182,13 +144,29 @@ h1{
 
 
 
-
-
-
-
+/* ---------Formulaire----------*/
 form{
     margin-top:20px;
 }
 
 
-
+@media (max-width: 767px) {
+    .nav > li {
+        margin-top: 0;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background: rgba(252, 252, 252, 0.7);
+        text-align: left;
+        padding-left: 15px;
+        width: 100%;
+    }
+    .nav > li:hover {
+        background: rgba(252, 252, 252, 0.4);
+    }
+    .navbar-collapse {
+        padding: 0;
+        margin-top:11px;
+        overflow-x: hidden;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
