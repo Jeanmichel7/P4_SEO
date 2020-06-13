@@ -1,6 +1,6 @@
 @font-face{
     font-family:'Kingthings';
-    src:url(/fonts/Kingthings_Petrock_light.ttf);
+    src:url(../fonts/Kingthings_Petrock_light.ttf);
 }
 
 
@@ -13,8 +13,6 @@ main{
 }
 
 
-
-
 /*                           ----------Menu-----------  */
 h1{
     color: #F3976C!important;
@@ -25,7 +23,10 @@ h1{
     color: #FFFFFF!important;
     font-size:1.7rem;
 }
-
+#bloc-0 p{
+    font-size:3rem;
+    min-width:250px;
+}
 
 
 .bloc {
@@ -43,8 +44,6 @@ h1{
     padding-left: 0;
     padding-right: 0;
 }
-
-
 
 
 .navbar{
@@ -71,13 +70,13 @@ h1{
 }
 
 
-
 .bgc-white {
     background-color: #FFFFFF;
 }
 .container {
     max-width: 1000px;
 }
+
 
 
 
@@ -98,15 +97,18 @@ h1{
     right: 0;
 }
 .bg-banniere {
-    background-image: url("/img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 .texture-paper::before {
-    background: url("/img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 .b-parallax {
     background-attachment: fixed;
 }
+
+
+
 
 
 
@@ -133,21 +135,69 @@ h1{
     background: #F3976C;
     color: #FFFFFF!important;
 }
-
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
+.bgc-atomic-tangerine {
+    background-color: #F3976C;
+    padding-top:20px;
+}
 
 
 
 
 
 
-/* ---------Formulaire----------*/
+
+/* ----------- Footer ---------- */
+h6{
+    font-size:1.7rem;
+    font-weight: bold;
+}
+.icon-md {
+    font-size: 30px!important;
+}
+p {
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+    padding:0;
+}
+li{
+    color:#484848;
+}
+li a{
+    color:#484848;
+}
+#btnform{
+    height: 35px;
+}
+.social {
+    display:flex;
+    padding:10px;
+}
+.reseausociaux{
+    display:flex;
+}
+.icon-md {
+    font-size: 30px!important;
+    color:#484848;
+}
+#mention p{
+    margin:0;
+    padding:0;
+    font-size:1rem;
+}
 form{
     margin-top:20px;
 }
+
+
+
+
+
 
 
 @media (max-width: 767px) {

@@ -64,7 +64,7 @@
 						<ul class="site-navigation nav navbar-nav navbar-right">
 							<li> <a href="index.html">Accueil</a> </li>
 							<li> <a href="page2.html">Nous contacter</a> </li>
-							<li> <a href="pagesombre.html">Fond sombre</a> </li>
+							<li> <a href="page3.html">Fond sombre</a> </li>
 						</ul>
 					</div>
 				</nav>
@@ -158,13 +158,13 @@
 			<section id="bloc-3-portfolio">
 				<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax">
 					<div class="container bloc-sm">
-						<div class="row tight-width-whitespace black-background">
+						<aside class="row tight-width-whitespace black-background">
 							<div class="col-sm-12">
-								<h2 class="mg-md text-center tc-white">
+								<h2 class="text-center tc-white">
 									Nous travaillons avec beaucoup de clients, voici quelqu'une de nos <strong>réalisations web</strong>.
 								</h2>
 							</div>
-						</div>
+						</aside>
 					</div>
 				</div>
 			
@@ -174,10 +174,8 @@
 							<h3>Nous aimons collaborer avec des <strong>entrepreneurs créatifs</strong> et des
 								<strong>entreprises Lyonnaise</strong>.</h3>
 							<p class="white">Qu’elles aient besoin de <strong>créer un site de A à Z</strong>, de donner un
-								<strong>coup de
-									jeune à leur site</strong>,
-								d'ajouter des <strong>illustrations</strong> ou <strong>d'améliorer le
-									référencement</strong>.  
+								<strong>coup de jeune à leur site</strong>, d'ajouter des <strong>illustrations</strong> ou <strong>d'améliorer le
+								référencement</strong>.  
 							</p>
 						</div>
 					</article>
@@ -295,7 +293,7 @@
 			<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 				<div class="container bloc-lg">
 					<h4 class="text-center tc-white">
-						Prêt à redonner vie à votre projet ?<br>Contactez notre équipe !
+						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 					</h4>
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -312,33 +310,35 @@
 				<div class="container bloc-sm">
 					
 					<!-- container-->
-					<div class="row sitemap">
+					<div class="row">
+
 						<!--Contact-->
-						<div class="col-sm-4 col-xs-6">
+						<article class="col-sm-4 col-xs-6 ">
 							<h6>NOUS CONTACTEZ</h6>
 							<ul>
 								<li>La Chouette Agence</li>
 								<li>2 place Sathonay</li>
-								<li>69001 Lyon</li><br>
-								<li>Ouvert de 9h à 18h, du lundi au vendredi</li><br>
-
+								<li>69001 Lyon</li>
+								<li>Ouvert de 9h à 18h, du lundi au vendredi</li>
 								<li><span class="fa fa-phone-square"></span> 03 72 41 03 71</li>
-								<li> <a href="mailto:contact@lachouetteagence.com"><span class="fa fa-at"></span> contact@lachouetteagence.com</a></li>
+								<li><a href="mailto:contact@lachouetteagence.com"><span class="fa fa-at"></span> contact@lachouetteagence.com</a></li>
 							</ul>
-						</div>
+						</article>
 						
 						<!-- Newsletter-->
-						<div class="col-sm-4 col-xs-6 newsletter">
+						<article class="col-sm-4 col-xs-6">
 							<h6>NEWSLETTER</h6>
 							<p>Abonnez vous à notre newsleter pour restez informez des dernières tendances en matière de SEO</p>
-							<form>
-								<input type="email" class="form-control" placeholder="Votre email">
-								<button id="btnform" type="button" class="btn btn-primary">Envoyez</button>
+							<form class="form-inline">
+								<div class="form-group">
+									<input type="email" class="form-control" placeholder="Votre email">
+									<button id="btnform" type="button" class="btn btn-primary">Envoyez</button>
+								</div>
 							</form>
-						</div>
+						</article>
 
 						<!--PARTENAIRE-->
-						<div class="col-sm-4 col-xs-6">
+						<article class="col-sm-4 col-xs-6">
 							<h6>PARTENARIAT</h6>
 							<ul>
 								<li><a href="voiture.com">voiture.com</a></li>
@@ -346,26 +346,30 @@
 								<li><a href="matoiture.com">matoiture.com</a></li>
 								<li><a href="immobilierseo.com">immobilierseo.com</a></li>
 							</ul>
-						</div>
+						</article>
 
 						<!--Reseau sociaux-->
-						<div class="col-sm-4">
+						<article class="col-sm-4 col-xs-6">
 							<h6>SUIVEZ NOUS</h6>
-							<div class="reseausociaux">
+							<div class="reseausociaux list-inline">
 								<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 								<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 								<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 							</div>
-						</div>
+						</article>
 					</div>
 				</div>
 			</section>
 
-			<aside>
-				<a href="https://google.fr"><p>Mentions légale et politique blbla  -  cookie etc</p></a>
-				<p>La Chouette Agence SA - 256000€ CA - Hébergé vers Trucmuc à Machinchoseloin</p>
-			</aside>
+			<section id="mention">
+				<p>
+					<a href="https://google.fr">Mentions légale</a> -
+					<a href="https://google.fr">Politique de confidentialité</a> -
+					<a href="https://google.fr">Cookies</a> -
+					La Chouette Agence SA - 256'000€ CA - Hébergé par un hébergeur
+				</p>
+			</section>
 		</footer>
 	</div>
 	<!-- Footer - bloc-8 END -->
