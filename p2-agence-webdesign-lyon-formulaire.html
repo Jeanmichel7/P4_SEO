@@ -45,30 +45,25 @@
 
 		<!-- bloc 0 -->
 		<header class="bloc bgc-white l-bloc" id="bloc-0">
-			<div class="container">
-				<nav class="navbar navbar-default navbar-fixed-top">
-					<div class="container">
-						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html">
-								<img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence"
-									height="40">
-								<p>La Chouette Agence</p>
-							</a>
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<div class="collapse navbar-collapse">
-							<ul class="site-navigation nav navbar-nav navbar-right">
-								<li> <a href="index.html">Accueil</a> </li>
-								<li> <a href="p2-agence-webdesign-lyon-formulaire.html">Nous contacter</a> </li>
-								<li> <a href="p3-agence-webdesign-lyon-sombre.html">Fond sombre</a> </li>
-							</ul>
-						</div>
-		
+			<div class="container bloc-sm">
+				<nav class="navbar navbar-default navbar-fixed-top">  <!--  navbar-fixed-top-->
+					<div class="navbar-header">
+						<a class="navbar-brand" href="index.html">
+							<p><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40">
+								La Chouette Agence</p>
+						</a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="site-navigation nav navbar-nav navbar-right">
+							<li><a href="index.html">Accueil</a> </li>
+							<li><a href="p2-agence-webdesign-lyon-formulaire.html">Nous contacter</a></li>
+							<li><a href="p3-agence-webdesign-lyon-sombre.html">Fond sombre</a></li>
+						</ul>
 					</div>
 				</nav>
 			</div>
@@ -109,29 +104,76 @@
 					<form class="well">
 						<fieldset>
 							<legend>Partagez nous votre projet</legend>
+							<!-- Nom -->
 							<div class="form-group col-sm-6">
 								<label for="nom">Nom :</label>
 								<input type="text" id="nom" class="form-control" placeholder="Pierre ">
 							</div>
+							<!-- Prénom -->
 							<div class="form-group col-sm-6">
 								<label for="prenom">Prénom :</label>
 								<input type="text" id="prenom" class="form-control" placeholder="Bucher">
 							</div>
+							<!-- Adresse -->
 							<div class="form-group col-sm-12">
 								<label for="mail">Adresse email :</label>
 								<input type="email" id="mail" class="form-control" placeholder="Pierre.bucher@gmail.com">
 							</div>
+
+							
+
+
+							<!-- checkbox -->
 							<div class="form-group col-sm-12">
-								<label for="connu">Comment nous avez vous connu?</label>
-								<input type="text" id="connu" class="form-control">
+								<label>Comment nous avez vous connu?</label>
+								
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+									<label class="form-check-label" for="exampleRadios1">
+									Site Internet
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+									<label class="form-check-label" for="exampleRadios2">
+									  Reseaux sociaux
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+									<label class="form-check-label" for="exampleRadios3">
+									  Bouche à oreille
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+									<label class="form-check-label" for="exampleRadios4">
+									  Moteur de recherche
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option4">
+									<label class="form-check-label" for="exampleRadios5">
+									Sites partenaires
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option4">
+									<label for="exemple6">Autres:</label><br>
+									<input class="form-check-input" type="text" id="exemple6" placeholder="Préciser">
+								</div>
 							</div>
+
+							<!-- Text-aréa -->
 							<div class="form-group col-sm-12">
 								<label for="projet">Votre projet :</label>
 								<textarea id="projet" class="form-control" rows="5"
 									placeholder="Ajoutez autant de détails que nécessaire"></textarea>
 								<p class="help-block">Vous pouvre agrandir la zone de saisi autant que nécessaire</p>
 							</div>
-							<button type="button" class="btn btn-primary">Envoyer</button>
+							<div class="col-sm-12">
+								<button type="button" class="btn btn-primary">Envoyer</button>
+							</div>
 						</fieldset>
 					</form>
 				</section>
@@ -197,7 +239,7 @@
 			</section>
 
 			<section id="mention">
-				<p><a href="https://google.fr">Mentions légale</a> -
+				<p>	<a href="https://google.fr">Mentions légale</a> -
 					<a href="https://google.fr">Politique de confidentialité</a> -
 					<a href="https://google.fr">Cookies</a> -
 					La Chouette Agence SA - 256'000€ CA - Hébergé par un hébergeur</p>

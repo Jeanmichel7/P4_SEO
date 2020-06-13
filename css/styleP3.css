@@ -82,7 +82,10 @@ h6{
 .bloc-sm {
     padding: 20px 50px;
 }
-
+#bloc-0 li a:hover{
+    background-color: rgba(177, 177, 177, 0.445);
+    border-radius: 10px;
+}
 
 
 
@@ -391,7 +394,6 @@ li{
 li a{
     color:#000000;
 }
-
 #btnform{
     height: 35px;
 }
@@ -405,13 +407,15 @@ li a{
 .reseausociaux{
     display:flex;
 }
-
 .icon-md {
     font-size: 30px!important;
     color: rgb(85, 85, 85);
 }
-
-
+#mention a,#mention p{
+    color:white;
+    font-size:1rem;
+    margin-bottom:0;
+}
 
 
 
