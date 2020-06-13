@@ -210,15 +210,9 @@ a p{
     margin-bottom:8px;
     padding-right:10px;
 }
-
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
-
-.navbar-toggle:hover {
-    background: transparent!important;
-}
-
 .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
