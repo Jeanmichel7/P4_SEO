@@ -149,7 +149,6 @@ a:hover {
 
 
 
-
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -181,7 +180,6 @@ a[data-lightbox]:hover img {
 
 
 
-
     /* 0-navigation */
 #bloc-0{
     width: 100%;
@@ -199,7 +197,6 @@ a[data-lightbox]:hover img {
 a p{
     font-family:'Kingthings';
 }
-
 .navbar {
     margin-bottom: 0px;
     z-index: 1;
@@ -222,7 +219,6 @@ a p{
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
-
 
 
 
@@ -363,16 +359,13 @@ blockquote{
     box-shadow: 0px 0px 0px #000000;
 }
 
-
 .voffset-lg {
     margin-top: 40px;
 }
 
 
 
-
     /* footer */
-
 p {
     font-size: 14px;
 }
