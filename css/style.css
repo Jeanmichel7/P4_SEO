@@ -14,7 +14,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-h1,h2,h3,h4,h5,h6,p,.btn,a{
+h1,h2,h3,h4,h5,p,.btn,a{
     font-family: Helvetica, Arial;
     color: #575757!important;
 }
@@ -53,7 +53,7 @@ h5{
     font-size:1.4rem;
     margin-top:0;
 }
-h6{
+h5{
     font-size:1.7rem;
     font-weight: bold;
 }
@@ -517,7 +517,7 @@ li{
         overflow-x: hidden;
         position: relative;
     }
-    h1,h2,h3,h4,h5,h6,p{
+    h1,h2,h3,h4,h5,p{
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
