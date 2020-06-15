@@ -671,7 +671,9 @@ li a{
     #bloc-8 ul{
         word-wrap: break-word;
     }
-    #bloc-8 .social{
-        padding-left:5px;
+    
+    .reseausociaux{
+        display:flex;
+        justify-content: space-evenly;
     }
 }
