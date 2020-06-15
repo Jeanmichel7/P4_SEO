@@ -256,10 +256,10 @@ form{
 
     #bloc-0 p{
         font-size: 2rem;
-        min-width: 100px;
+        max-width: 100px;
     }
     #bloc-0 button{
-        margin:10px;
+        margin:0px;
     }
     h1{
         font-size: 4rem;;
@@ -273,31 +273,9 @@ form{
         margin:0;
         padding:0;
     }
-    .tight-width-whitespace{
-        padding:0;
-    }
-
-    #bloc-4-what-i-do h3{
-        font-size:1.8rem;
-        text-align: justify;
-    }
-    #bloc-4-what-i-do p{
-        font-size:1.2rem;
-    }
-
-    #bloc-4-what-i-do .btn-atomic-tangerine{
-        font-size: 1.3rem;
-    }
-
-    blockquote{
-        font-size: 1.6rem;
-    }
-
-    #bloc-5-cta h4{
-        font-size: 2.3rem;
-    }
-    #bloc-5-cta a{
-        font-size: 1.6rem;
+    
+    #bloc-1 p{
+        margin:0;padding:0;
     }
 
     #bloc-8 h5{

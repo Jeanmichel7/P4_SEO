@@ -596,6 +596,10 @@ li a{
         padding-right: 0;
     }
     
+    blockquote{
+        color:white;
+        font-size: 1.8rem;
+    }
     
     
     .voffset {
