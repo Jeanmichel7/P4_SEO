@@ -21,9 +21,7 @@ a {
     font-family: Helvetica, Arial;
     color: #3E3E3E !important;
 }
-small{
-    color:#af2020;
-}
+
 .container {
     max-width: 1000px;
 }
@@ -295,9 +293,11 @@ blockquote {
     font-size: 2rem;
     color: rgb(83, 82, 82);
 }
-small{
+blockquote small{
+    color:#5E5E5E;
     margin-top:20px;
 }
+
 .tight-width-whitespace {
     max-width: 90%;
     margin: auto auto auto auto;
