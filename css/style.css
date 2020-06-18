@@ -21,6 +21,9 @@ a {
     font-family: Helvetica, Arial;
     color: #3E3E3E !important;
 }
+small{
+    color:#af2020;
+}
 .container {
     max-width: 1000px;
 }
@@ -47,7 +50,7 @@ h3 {
 h4 {
     font-size: 3rem;
     line-height: 1.4em;
-    color: #333333 !important;
+    color: #8F5740 !important;
 }
 
 h5 {
@@ -124,7 +127,7 @@ a:hover {
     color: #f3976c !important;
 }
 .btn-atomic-tangerine {
-    background: #f3976c;
+    background: #A85C39;
     color: #ffffff !important;
 }
 .btn-atomic-tangerine:hover {
@@ -225,7 +228,7 @@ a p {
     color: #f3976c;
 }
 .icon-dark-slate-blue {
-    color: #f3976c !important;
+    color: #8F5740 !important;
 }
 #bloc-3-portfolio img {
     margin-right: auto;
@@ -315,7 +318,7 @@ ul {
     padding-left: 10px;
 }
 li {
-    color: #484848;
+    color: #2F2F2F;
 }
 #btnform {
     height: 34px;
