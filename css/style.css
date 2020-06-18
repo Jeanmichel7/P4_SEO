@@ -19,7 +19,7 @@ p,
 .btn,
 a {
     font-family: Helvetica, Arial;
-    color: #575757 !important;
+    color: #3E3E3E !important;
 }
 .container {
     max-width: 1000px;
@@ -38,7 +38,7 @@ h2 {
 h3 {
     font-size: 2.7rem;
     line-height: 1.4em;
-    color: #f3976c !important;
+    color: #A85C39 !important;
 }
 .mg-md {
     margin-top: 5px;
@@ -49,13 +49,10 @@ h4 {
     line-height: 1.4em;
     color: #333333 !important;
 }
-h5 {
-    font-size: 1.4rem;
-    margin-top: 0;
-}
+
 h5 {
     font-size: 1.7rem;
-    font-weight: 700;
+    font-weight: bold;
 }
 .bloc {
     width: 100%;
@@ -108,7 +105,7 @@ a:hover {
 }
 .cta-hero {
     margin-top: 22px;
-    color: black !important;
+    color: #ffffff !important;
     text-transform: uppercase;
     padding: 16px 28px 12px 28px;
     font-size: 20px;
@@ -128,11 +125,11 @@ a:hover {
 }
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: #610E0E !important;
+    color: #ffffff !important;
 }
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: black !important;
+    color: #ffffff !important;
 }
 a[data-lightbox] {
     position: relative;
@@ -294,6 +291,9 @@ blockquote {
     font-style: italic;
     font-size: 2rem;
     color: rgb(83, 82, 82);
+}
+small{
+    margin-top:20px;
 }
 .tight-width-whitespace {
     max-width: 90%;
