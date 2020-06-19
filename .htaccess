@@ -34,7 +34,8 @@
   FilterProtocol  COMPRESS  DEFLATE change=yes;byteranges=no
 </IfModule>
 
-
+RedirectPermanent https://www.seo-ocr.000webhostapp.com/index.html https://seo-ocr.000webhostapp.com/index.html
+RedirectPermanent http://www.seo-ocr.000webhostapp.com/index.html http://seo-ocr.000webhostapp.com/index.html
 
 <IfModule mod_expires.c>
   ExpiresActive on
